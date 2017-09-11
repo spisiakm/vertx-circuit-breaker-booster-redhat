@@ -127,3 +127,6 @@ dist/
 nbdist/
 nbactions.xml
 .nb-gradle/
+
+*.log
+integration-tests/.openshiftio/

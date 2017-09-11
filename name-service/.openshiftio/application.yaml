@@ -91,7 +91,7 @@ objects:
       expose: "true"
       app: name-service
       provider: fabric8
-      version: 7-SNAPSHOT
+      version: 1-SNAPSHOT
       group: io.openshift.booster
     name: name-service
   spec:
@@ -110,11 +110,11 @@ objects:
     annotations:
       fabric8.io/iconUrl: img/icons/vertx.svg
       fabric8.io/git-branch: master
-      fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=name-service&var-version=7-SNAPSHOT
+      fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=name-service&var-version=1-SNAPSHOT
     labels:
       app: name-service
       provider: fabric8
-      version: 7-SNAPSHOT
+      version: 1-SNAPSHOT
       group: io.openshift.booster
     name: name-service
   spec:
@@ -133,11 +133,11 @@ objects:
         annotations:
           fabric8.io/iconUrl: img/icons/vertx.svg
           fabric8.io/git-branch: master
-          fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=name-service&var-version=7-SNAPSHOT
+          fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=name-service&var-version=1-SNAPSHOT
         labels:
           app: name-service
           provider: fabric8
-          version: 7-SNAPSHOT
+          version: 1-SNAPSHOT
           group: io.openshift.booster
       spec:
         containers:
@@ -189,7 +189,7 @@ objects:
     labels:
       app: name-service
       provider: fabric8
-      version: 7-SNAPSHOT
+      version: 1-SNAPSHOT
       group: io.openshift.booster
     name: name-service
   spec:
